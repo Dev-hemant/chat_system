@@ -9,7 +9,7 @@ const Login = ()=>{
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
     const [loding, setLoding] = useState(false);
-    const toast = useToast(); //jnvjkfnvjkfnvjkn
+    const toast = useToast();
     const history = useNavigate();
 
     const handleClick = () => setShow(!show);
